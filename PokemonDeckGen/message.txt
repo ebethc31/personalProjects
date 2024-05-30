@@ -1,5 +1,5 @@
 Pokemon Deck Creator
-Made by: Evelyn Cocker and Liz Chandler
+Made by: Evelyn Cocker(TESTER) and Liz Chandler(DEVELOPER)
     Purpose:
         This application is meant to be used as a tool to create a deck of 20 pokemon cards.
         Based on the user's input, the program will design a deck. In real life pokemon decks usually have one or two types.
