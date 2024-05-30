@@ -1,0 +1,32 @@
+Pokemon Deck Creator
+Made by: Evelyn Cocker and Liz Chandler
+    Purpose:
+        This application is meant to be used as a tool to create a deck of 20 pokemon cards.
+        Based on the user's input, the program will design a deck. In real life pokemon decks usually have one or two types.
+        Sometimes there are duplicate cards in real life decks. The Pokemon deck creator does just this.
+        Instead of spending extra time deciding what pokemon should go in your deck, this application does it for you.
+        All you have to do is add energy cards and trainer cards. The time that you save using this application can instead
+        be used to play more pokemon games with friends.
+    Creation Process:
+        1.) We found a csv file with an updated pokemon list that also contained stats for each pokemon.
+        2.) Filtered through the data and made each pokemon along with their stats into sublists of a list.
+        3.) Created a types list that can be presented to the user to pick from.
+        4.) Functions were created to handle user error.
+        5.) We created a list that would store the user input.
+        6.) We then created an algorithm that would randomize pokemon from that list and pull out 20 to give to the user.
+        7.) After that we created a section dedicated to getting the user their desired output. They are given the option
+            to keep generating a new list till they are happy.
+    Goals:
+        1.) Create a application that can produce a deck of 20 cards
+        2.) Tailor the deck of 20 cards to the users input
+        3.) Allow the user to keep asking for a new deck
+        4.) Allow the user to replace specific cards they don't like (We were not able to achieve this)
+    How to use the application:
+        1.) Make sure that the csv file is saved into a file called DATA. If you do not want to do this, just change
+            line 3 of the main file to retreive the csv file from wherever you have it.
+        2.) Launch the main file in your termanal and follow the application script.
+        4.) The majority of your inputs will be yes or no answers. The application is designed to handle extra spaces
+            and any other user error.
+        5.) When your deck is created you can ask to regenerate a new deck as many times as you would like until you are
+            satisfied.
+  We hope you enjoy our application! 
